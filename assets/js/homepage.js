@@ -19,7 +19,7 @@ var getUserRepos = function(user) {
   })
   .catch(function(error) {
     alert("Unable to connect to GitHub");
-  }
+  })
 };
 
 var formSubmitHandler = function(event) {
